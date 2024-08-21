@@ -1,0 +1,45 @@
+.recipe-details-container {
+    position: relative;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shadowed-image {
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .shadowed-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .text-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-title {
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+  
+  .recipe-description {
+    color: #666;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
